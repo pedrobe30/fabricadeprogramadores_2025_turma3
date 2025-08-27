@@ -6,22 +6,13 @@ marinho1 = AnimaisMarinhos('Baleia', 'Agua salgada', 10.21, sexo_final,  'Sim', 
 marinho2 = AnimaisMarinhos('Tubarão', "Água salgada", 6.65, sexo_final,  "Sim", True)
 marinho3 = AnimaisMarinhos("Golfinho", "Água salgada", 1.83, sexo_final, "Sim", False)
 marinho4 = AnimaisMarinhos("Jacaré", "Água Doce", 1.70, sexo_final, "Sim", False)
-marinho5 = AnimaisMarinhos("Carangueijo", "Água Salgada", 0.80, sexo_final, "Não", False)
+marinho5 = AnimaisMarinhos("Carangueijo", "Água Salgada", 0.80, sexo_final, "Não", True)
 marinho6 = AnimaisMarinhos("Estrela do Mar", "Água Salgada", 0.20, sexo_final, "Não", True)
-marinho7 = AnimaisMarinhos()
-marinho8 = AnimaisMarinhos()
-marinho9 = AnimaisMarinhos()
-marinho10 = AnimaisMarinhos()
-marinho11 = AnimaisMarinhos()
-marinho12 = AnimaisMarinhos()
-marinho13 = AnimaisMarinhos()
-marinho14 = AnimaisMarinhos()
-marinho15 = AnimaisMarinhos()
-marinho16 = AnimaisMarinhos()
-marinho17 = AnimaisMarinhos()
-marinho18 = AnimaisMarinhos()
-marinho19 = AnimaisMarinhos()
-marinho20 = AnimaisMarinhos()
+marinho7 = AnimaisMarinhos("Polvo", "Água salgada", 2.00, sexo_final, "Não", True)
+marinho8 = AnimaisMarinhos("Pinguim", "Água Salgada", 1.00, sexo_final, "Sim", False)
+marinho9 = AnimaisMarinhos("Peixe-Boi", "Doce e Salgada", 3.00, sexo_final, "Sim", False)
+marinho10 = AnimaisMarinhos("Tartaruga", "Água Salgada", 1.00, sexo_final, "Sim", False)
+
 
 def genero():
  if sexo_final == 'femea':

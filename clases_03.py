@@ -1,8 +1,8 @@
 class Pessoa():
     
-    def __init__(self, nome: str, profissao: str, idade: int, _contabancaria: float, _endereco: list, _senha_cartao: int, __email: str, __celular: int, _cpf: int, altura ):
+    def __init__(self, nome: str, estado_profissional: bool, idade: int, _contabancaria: float, _endereco: list, _senha_cartao: int, __email: str, __celular: int, _cpf: int, altura, _senha: str ):
         self.nome = nome
-        self.profissao = profissao
+        self.estado_profisional = estado_profissional
         self.idade = idade
         self._contabacaria = _contabancaria
         self._endereco = _endereco
@@ -11,6 +11,17 @@ class Pessoa():
         self.__celular = __celular
         self._cpf = _cpf
         self.altura = altura
+        self._senha = _senha
+
+     
     
-    # def VerificandoLogin(self):
-        
+    
+    def CadastrandoEmail(self):
+        self.__email = input("Digite seu email")
+
+     
+
+
+
+    
+
